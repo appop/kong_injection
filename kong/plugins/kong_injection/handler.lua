@@ -1,5 +1,5 @@
 local access = require "kong.plugins.kong_injection.access"
-
+local BasePlugin = require "kong.plugins.base_plugin"
 local KongInjection = BasePlugin:extend()
 
 function KongInjection:new()

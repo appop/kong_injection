@@ -2,6 +2,8 @@ local injection = require "resty.injection"
 local req_read_body = ngx.req.read_body
 local req_get_body_data = ngx.req.get_body_data
 
+local _M = {}
+
 function _M.execute(conf)
   if #conf.sqli == true then
   	scan_for_sqli(conf)
