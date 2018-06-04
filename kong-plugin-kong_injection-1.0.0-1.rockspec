@@ -25,3 +25,4 @@ build = {
     ["kong.plugins.kong_injection.handler"] = "kong/plugins/kong_injection/handler.lua",
     ["kong.plugins.kong_injection.schema"] = "kong/plugins/kong_injection/schema.lua",
  }
+}
