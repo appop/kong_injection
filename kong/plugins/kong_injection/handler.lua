@@ -11,3 +11,5 @@ function KongInjection:access(conf)
   KongInjection.super.access(self)
   access.execute(conf)
 end
+
+return KongInjection

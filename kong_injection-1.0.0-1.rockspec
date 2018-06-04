@@ -1,4 +1,4 @@
-package = "kong-plugin-kong_injection"
+package = "kong_injection"
 version = "1.0.0-1"
 
 source = {
