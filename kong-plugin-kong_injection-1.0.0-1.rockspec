@@ -1,5 +1,5 @@
-package = "kong_injection"
-version = "1.0.0"
+package = "kong-plugin-kong_injection"
+version = "1.0.0-1"
 
 source = {
   -- these are initially not required to make it work
