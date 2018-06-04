@@ -14,8 +14,8 @@ description = {
 }
 
 dependencies = {
-	  "lua >= 5.3.4",
-	  "resty.injection >=  1.0-1"
+	  "lua >= 5.1.0",
+	  "lua-resty-injection >=  1.0-1"
 }
 
 build = {
